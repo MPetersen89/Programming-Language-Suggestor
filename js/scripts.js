@@ -1,7 +1,6 @@
 $("document").ready(function() {
   console.log("script executing")
   const career = parseInt($("input:radio[name=career]:checked").val());
-  console.log("career value checked")
   const task = parseInt($("input:radio[name=task]:checked").val());
   const company = parseInt($("input:radio[name=company]:checked").val());
   const difficulty = parseInt($("input:radio[name=difficulty]:checked").val());
@@ -12,11 +11,6 @@ $("document").ready(function() {
 
   $("input#start").submit(function() {
     console.log("start button executing")
-    $("#jumbotron").hide()
-    console.log("jumbotron hidden")
-    $("form#questions").show();
-    console.log("questions displayed")
-    event.preventDefault();
   });
   
   if (results <= 10) {

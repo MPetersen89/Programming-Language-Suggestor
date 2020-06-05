@@ -8,7 +8,67 @@ form#questions {
   text-align: center;
 }
 
-#c #cPlusPlus #cSharp #css #python #ruby #java #javascript #html #sql #sqift #perl #php {
+#c {
+  display: none;
+  text-align: center;
+}
+
+#cPlusPlus {
+  display: none;
+  text-align: center;
+}
+
+#cSharp {
+  display: none;
+  text-align: center;
+}
+
+#css {
+  display: none;
+  text-align: center;
+}
+
+#python {
+  display: none;
+  text-align: center;
+}
+
+#ruby {
+  display: none;
+  text-align: center;
+}
+
+#java {
+  display: none;
+  text-align: center;
+}
+
+#javascript {
+  display: none;
+  text-align: center;
+}
+
+#html {
+  display: none;
+  text-align: center;
+}
+
+#sql {
+  display: none;
+  text-align: center;
+}
+
+#swift {
+  display: none;
+  text-align: center;
+}
+
+#perl {
+  display: none;
+  text-align: center;
+}
+
+#php {
   display: none;
   text-align: center;
 }
