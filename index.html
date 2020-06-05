@@ -14,30 +14,46 @@
       <h1>Which Programming Language is Right for You?</h1>
       <h3>This page will help you find a programming language that suits your personality and goals.</h3>
       <h3><small>Note: There are many languages out there with similar properties, but it is still worth choosing a specific language to start on and build from.</small></h3>
-      <button type="button" class="btn btn-primary btn-lg active">Start</button>
+      <button type="submit" class="btn btn-primary btn-lg active" id="start" value="Start">Start</button>
     </div>
-    <div class="questions">
+    <form id="questions">
+      <div id="question0">
+        <h1>Do you want to make a career out of coding?</h1>
+        <div class="career">
+          <label>
+            <input type="radio" name="career" value="value1">
+            Yes
+          </label>
+        </div>
+        <div class="career">
+          <label>
+            <input type="radio" name="career" value="value2">
+            No
+          </label>
+        </div>
+        <input class="btn btn-default" type="submit" value="Submit" id="submitButton0">
+      </div>
       <div id="question1">
         <h1>How do you feel when asked to complete a difficult task?</h1>
         <div class="task">
           <label>
-            <input type="radio" name="task" value="excited">
+            <input type="radio" name="task" value="value1">
             Eager to get started!
           </label>
         </div>
         <div class="task">
           <label>
-            <input type="radio" name="task" value="nervous">
+            <input type="radio" name="task" value="value2">
             Palms are sweaty, knees weak, arms are heavy
           </label>
         </div>
         <div class="task">
           <label>
-            <input type="radio" name="task" value="indifferent">
+            <input type="radio" name="task" value="value3">
             Meh
           </label>
         </div>
-        <input class="btn btn-primary" type="submit" value="Submit" id="submitButton1">
+        <input class="btn btn-default" type="submit" value="Submit" id="submitButton1">
       </div>
       <div id="question2">
         <h1>What size of company do you want to work for?</h1>
@@ -47,31 +63,31 @@
             I want to work at the largest possible companies (the Amazons and Salesforces of the workforce).
           </label>
         </div>
-        <div class="task">
+        <div class="company">
           <label>
             <input type="radio" name="company" value="value2">
             I want to work for a big company, but not one that will take mmy soul.
             </label>
         </div>
-        <div class="task">
+        <div class="company">
           <label>
             <input type="radio" name="company" value="value3">
             I want to work at a small company, all of us in the same building.
           </label>
         </div>
-        <div class="task">
+        <div class="company">
           <label>
             <input type="radio" name="company" value="value4">
             I want to join a startup and make things from the ground up!
           </label>
         </div>
-        <div class="task">
+        <div class="company">
           <label>
             <input type="radio" name="company" value="value4">
             I just want to do my own thing, freelance.
           </label>
         </div>
-        <input class="btn btn-primary" type="submit" value="Submit" id="submitButton2">
+        <input class="btn btn-default" type="submit" value="Submit" id="submitButton2">
       </div>
       <div id="question3">
         <h1>How easy to learn do you want the programming language to be?</h1>
@@ -81,19 +97,19 @@
             Give me the tough stuff!
           </label>
         </div>
-        <div class="task">
+        <div class="difficulty">
           <label>
             <input type="radio" name="difficulty" value="value2">
             I need something as easy as possible right now.
             </label>
         </div>
-        <div class="task">
+        <div class="difficulty">
           <label>
             <input type="radio" name="difficulty" value="value4">
             Difficulty doesn't matter to me.
           </label>
         </div>
-        <input class="btn btn-primary" type="submit" value="Submit" id="submitButton3">
+        <input class="btn btn-default" type="submit" value="Submit" id="submitButton3">
       </div>
       <div id="question4">
         <h1>Does income potential factor into your decision?</h1>
@@ -103,124 +119,129 @@
             I want to be able to swim in a pool of my own money.
           </label>
         </div>
-        <div class="task">
+        <div class="income">
           <label>
             <input type="radio" name="income" value="value2">
             I want to live the 2020 American Dream.
             </label>
         </div>
-        <div class="task">
+        <div class="income">
           <label>
             <input type="radio" name="income" value="value3">
             I just want to pay the bills.
           </label>
         </div>
-        <div class="task">
+        <div class="income">
           <label>
             <input type="radio" name="income" value="value4">
             I don't care if I make any money from this.
           </label>
         </div>
-        <input class="btn btn-primary" type="submit" value="Submit" id="submitButton4">
+        <input class="btn btn-default" type="submit" value="Submit" id="submitButton4">
       </div>
       <div id="question5">
         <h1>Do you want a programming language that can "do it all" or one that is specialized?</h1>
-        <div class="question">
+        <div class="versatility">
           <label>
-            <input type="radio" name="question" value="value1">
+            <input type="radio" name="versatility" value="value1">
             I want a program that is only limited by what I can do.
           </label>
         </div>
-        <div class="task">
+        <div class="versatility">
           <label>
-            <input type="radio" name="task" value="value2">
+            <input type="radio" name="versatility" value="value2">
             I want a language that is great for websites and web-based applications
             </label>
         </div>
-        <div class="task">
+        <div class="versatility">
           <label>
-            <input type="radio" name="task" value="value3">
+            <input type="radio" name="versatility" value="value3">
             I want a language I can use to make mobile apps.
           </label>
         </div>
-        <div class="task">
+        <div class="versatility">
           <label>
-            <input type="radio" name="task" value="value4">
+            <input type="radio" name="versatility" value="value4">
             I want a language that is used to make different types of software.
           </label>
         </div>
-        <input class="btn btn-primary" type="submit" value="Submit" id="submitButton5">
+        <input class="btn btn-default" type="submit" value="Submit" id="submitButton5">
       </div>
-      <div id="question 6">
+      <div id="question6">
         <h1>What types of programs or applications would you like to make?</h1>
-        <div class="question">
+        <div class="type">
           <label>
-            <input type="radio" name="question" value="value1">
+            <input type="radio" name="type" value="value1">
             iOS or OS X for me, because I'm civilized
           </label>
         </div>
-        <div class="task">
+        <div class="type">
           <label>
-            <input type="radio" name="task" value="value2">
+            <input type="radio" name="type" value="value2">
             Android is the best mobile platform!
             </label>
         </div>
-        <div class="task">
+        <div class="type">
           <label>
-            <input type="radio" name="task" value="value3">
+            <input type="radio" name="type" value="value3">
             Games, games, games!
           </label>
         </div>
-        <div class="task">
+        <div class="type">
           <label>
-            <input type="radio" name="task" value="value4">
+            <input type="radio" name="type" value="value4">
             Data analysis (I want to know what you are going to do before you do)
           </label>
         </div>
-        <div class="task">
+        <div class="type">
           <label>
-            <input type="radio" name="task" value="value4">
+            <input type="radio" name="type" value="value4">
             I just want to make cool websites!
           </label>
         </div>
-        <input class="btn btn-primary" type="submit" value="Submit" id="submitButton6">
+        <input class="btn btn-default" type="submit" value="Submit" id="submitButton6">
       </div>
-    </div>
-    <button type="button" class="btn btn-primary btn-lg active" id="otherResults">See the other results</button>
+    </form>
     <div class="results">
       <div id="C">
         <h1>C</h1>
         <p>C is the OG programming language. First released in 1972 (That's 48 years ago!), this programming language has seen it all and stuck around.</p>
         <p>This is a difficult language to start with for beginners, which will likely mean more time spent figuring out how the language works rather than being able to spend time learning the fundamentals of programming.</p>
         <p>Learning this language is not going to be easy as the syntax is fairly dated, but past that should be pretty straightforward. Plus, learning this language will be a good foundation and base for learning other programming languages. Because it has been around since the beginning, its influence on other programming languages will be noticeable wherever you decide to go next. This aint yo mama's programming language (More like yo grandma's programming language).</p>
+        <button type="button" class="btn btn-primary btn-sm active" id="otherResults">See the other results</button>
       </div>
       <div id="C++">
         <h1>C++</h1>
         <p>C++ is a powerful language that can do many things, but is rather low level, meaning it is more difficult to "read." This means you will spend more time figuring out how the language itself works rather than how programming works.</p> 
         <p>Writing an application from scratch with C++ require a <em>lot</em> of code and is more difficult to manage. However, C++ is good at what it does and is often used for very resource intensive programs like AAA games. C++ is a good choice for computer software, mobile apps, video games, game engines, or even web applications.</p>
+        <button type="button" class="btn btn-primary btn-sm active" id="otherResults">See the other results</button>
       </div>
       <div id="C#">
         <h1>C#</h1>
         <p>C# (pronounced C-sharp) was developed by Microsoft for their .NET framework and is based on C and C++. It was designed to be simple and straightforward, which makes it an easier language to start on.</p>
         <p>A high-level language (though not quite as high-level as, say, Python), it is designed to be easy to read, and the language itself takes care of a lot of the abstracts behind the scenes so your computer can deal with the code.</p>
         <p>C# is the primary programming language of Microsoft and is also popular with game developers, so if you are interested in working for/with Microsoft, or getting into game development to use things like the Unity engine, this may be the language for you!</p>
+        <button type="button" class="btn btn-primary btn-sm active" id="otherResults">See the other results</button>
       </div>
       <div id="CSS">
         <h1>CSS</h1>
         <p>CSS (which stands for Cascading Styles Sheets) is the language many web designers and web developers use for the look and design of their websites. If HTML is the foundation and framework of a house, CSS is the siding, style, and paintjob. Together with javascript, these 3 language form the trinity of web development.</p>
         <p>CSS is not considered by many to be a "proper" coding language, but nonetheless is essential in web development. If you are interested in building websites, CSS will be required. Luckily, CSS is a quick and easy language to learn the basics of, and is great for beginners because you can see your work immediately.</p>
         <p>Another thing that makes CSS great is that you can learn enough in a few weeks to start picking up side jobs to practice and earn a little money on the side while you continue learning other languages, which will help pay the bills as well as deepen your portfolio for landing that entry-level front-end developer job down the road.</p>
+        <button type="button" class="btn btn-primary btn-sm active" id="otherResults">See the other results</button>
       </div>
       <div id="python">
         <h1>Python</h1>
         <p>Python is one of the most beginner friendly programming languages available and is great for learning the fundamentals of coding. It is a high-level coding language, meaning it reads almost like English, so it is very intuitive and clean and decreases the amount of time you have to spend learning how the language itself works.</p>
         <p>Python can be used for some very cool and versatile things, such as data mining, automation, machine learning, web applications, and game development.</p>
         <p>Python is a very popular language and has many resources available to individuals interested in learning, and there is a strong community around Python that is ready and willing to help aspiring Python programmers.</p>
+        <button type="button" class="btn btn-primary btn-sm active" id="otherResults">See the other results</button>
       </div>
       <div id="ruby">
         <h1>Ruby</h1>
         <p>Ruby is a very high-level programming language that has been around for 25 years. It is a creative programming language that often allows the user to find multiple solutions to a given problem. Using Ruby, you can see results fairly quickly and build sites surprisingly quickly, especially using something like the Ruby on Rails framework. This makes Ruby the most useful web development programming language for small businesses and startups to launch web applications as quickly as possible.</p>
         <p>If small tech companies or startups are what you are interested in, Ruby is a good choice for a starter language. Just be sure that the companies you apply to are using Ruby.</p>
+        <button type="button" class="btn btn-primary btn-sm active" id="otherResults">See the other results</button>
       </div>
       <div id="java">
         <h1>Java</h1>
@@ -228,28 +249,33 @@
         <p>Many aspects of Java come from C++, but it is a bit easier to learn for beginners. One selling point of Java is that it is designed to allow developers to write code that will work on entirely different devices, hence their slogan "write once, run anywhere."</p>
         <p>Java is very popular for many types of applications, which makes Java one of the most in demand and highest paying programming languages you can learn. It is also one of the most useful programming languages for Android mobile development, so if you are interested in writing apps for Android phones, this is your ticket in.</p>
         <p>Because Java is very versatile, it makes a great language to learn if you are not quite sure what you want to do with programming.It is a great asset for applying for initial coding jobs. While it is very useful and very versatile, it is not the easiest or most beginner friendly language out there (think Python or Ruby for that).</p>
+        <button type="button" class="btn btn-primary btn-sm active" id="otherResults">See the other results</button>
       </div>
       <div id="javascript">
         <h1>Javascript</h1>
         <p>JavaScript is not the same thing as Java. JavaScript is used together with HTML to make websites interactive, interesting, and user-friendly. Nearly every webpage you navigate to uses JavaScript. It is one of the most popular web development programming languages out there and, consequently, is a good language to have on a resume.</p>
         <p>Thera are multiple different frameworks and libraries (pre-made coding materials that the coder can just draw from for ease of use), including Vue, React, Angular, Ember, and Node. Each of these frameworks brings similar designs to the language, but in different ways. The introduction of Node allows the developer to create client side content as well, making JavaScript a <a heref="https://www.w3schools.com/whatis/whatis_fullstack.asp">full-stack</a> language</p>
         <p>If you want to develop websites, you <em>have</em> to learn JavaScript. But pair with HTML and CSS and you have the skills to create quite the web developer portfolio and land jobs in web development. And because JavaScript is so popular right now, you won't have any trouble landing those jobs.</p>
+        <button type="button" class="btn btn-primary btn-sm active" id="otherResults">See the other results</button>
 <!-- links for Vue, React, Angular, Ember, and Node -->
       </div>
       <div id="html">
         <h1>HTML</h1>
         <p>HTML (or Hypertext Markup Language) is used to create all websites and is the essential structural and content component of said sites. While HTML is also not technically a full "programming language," but a markup language, HTML is arguably the most important part of web development. The basics are very simple to learn and it is a great jumpoff point to coding and web development.Together with CSS and Javascript, you will be able to create some pretty amazing website.</p>
+        <button type="button" class="btn btn-primary btn-sm active" id="otherResults">See the other results</button>
       </div>
       <div id="sql">
         <h1>SQL</h1>
         <p>In today's world, companies are gathering and storing more data than ever. SQL (or Structured Query Language) is the most common language used for managing all of this data stored in relational database management systems (RDBMS).</p>
         <p>Big companies need programmers to analyze all of the data collected from customers and help them draw conclusions from it. Amazon, for instance, will take data about shopping trends from the year and create curated shopping content for the Christmas season as well as pre-pack the items that are most likely to sell, streamlining delivery for anyone that starts shopping early. This data is also why you pay significantly more money during big holidays to travel by plane.</p>
         <p>If you enjoy looking at or analyzing data to form valuable conclusions, SQL may be the most useful language you can learn. Plus, mastering SQL and data management would make you a valuable asset to nearly every company and you will have no trouble landing a job.</p>
+        <button type="button" class="btn btn-primary btn-sm active" id="otherResults">See the other results</button>
       </div>
       <div id="swift">
         <h1>Swift</h1>
         <p>Swift is a pretty young language developed by Apple in 2014, and is now the de facto programming langauge for all things iOS and OS X. With the rise in popularity of iPhone and cellphones in general, it makes sense that Swift would be so popular so quickly (though the support community is still relatively small compared to older languages). Swift shares a lot of things in common with Python and Ruby, making it very beginner-friendly and easy to use.</p>
         <p>Because Apple is going nowhere anytime soon, if you are interested in developing apps for iPhones or Macs, you will need to learn Swift. It would also benefit you to pair what you learn with Objective-C in order to broaden your scope of iOS and OS X development.</p>
+        <button type="button" class="btn btn-primary btn-sm active" id="otherResults">See the other results</button>
       </div>
       <div id="perl">
         <h1>Perl</h1>
@@ -257,13 +283,17 @@
         <p>Perl can be compared to multiple different languages for multiple different things. Many features are similar to C, Python, and PHP. However, it allows multiple solutions to a given problem unlike Python and PHP, and more similar to Ruby.</p>
         <p>Perl also can seem a bit jumbled or crowded to a beginner programmer, but once you get the hang of it, it becomes much easier to learn.</p>
         <p>Perl is also not as popular as many other languages on this list, and therefore if you choose Perl, you should make sure the company you are applying to actually uses Perl.</p>
+        <button type="button" class="btn btn-primary btn-sm active" id="otherResults">See the other results</button>
       </div>
       <div id="php">
         <h1>PHP</h1>
         <p>PHP is a scripting language working on the server side of web development projects written in HTML. It is relatively easy to learn, making it one of the most popular programming languages available and consistently landing it in the top 10 on the <a href="https://www.tiobe.com/tiobe-index/">TIOBE Index</a>. It is used by 80% of the top 10 million websites online, showing just how widely used it is.</p>
         <p>Because PHP is a server side language, like Pyhton and Perl, it can be used to create things like login pages, photo galleries, discussion forums, etc. Some of the most popular websites in the world use PHP, such as Facebook, Tumblr, and Wordpress.</p>
         <p>If you are looking into a career in web development, you can't do wrong choosing PHP. It is the most useful language for WordPress development and is a very safe choice if you plan to do freelance web development.</p>
+        <button type="button" class="btn btn-primary btn-sm active" id="otherResults">See the other results</button>
       </div>
     </div>
   </body>
 </html>
+
+<!-- https://mikkegoes.com/14-programming-languages-explained/ -->

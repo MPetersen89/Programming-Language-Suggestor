@@ -6,6 +6,7 @@
 
 .questions {
   text-align: center;
+  display: none;
 }
 
 .results {
@@ -14,5 +15,5 @@
 }
 
 #otherResults {
-  text-align: center;
+  align-content: center;
 }
