@@ -1,12 +1,12 @@
-# _Title_
+# _Programming Language Suggestor_
 
-#### _Short Description, current date or date of latest version_
+#### _Interactive program/quiz utilizing HTML, CSS, and JS, 6/5/2020_
 
-#### By _**Author Names**_
+#### By _**Michael Petersen**_
 
 ## Description
 
-_Detailed Description of project_
+_This project is designed as an interactive quiestionnaire for the user to answer questions about themselves, and receive programming language result based on the values assigned to the answers of the initial questions. Using jQuery for some of the interactivity of the site and bootstrap for styling, the page responds to user input._
 
 ## Setup/Installation Requirements
 
@@ -16,21 +16,22 @@ Open by downloading:
 
 Open via Bash/GitBash:
 1. Clone this repository onto your computer:
-`git clone https://github.com/MPetersen89/ProjectName`
-2. Navigate into the `ProjectName` directory in Visual Studio Code or preferred text editor
+`git clone https://github.com/MPetersen89/Programming-Language-Selector`
+2. Navigate into the `Programming-Language-Selector` directory in Visual Studio Code or preferred text editor
 `code .`
 3. Open index.html in Chrome or preferred browser:
 `open index.html`
 
-
+Current GH-Pages Build:
+* 
 
 ## Known Bugs
 
-_List of current bugs present in current build_
+_No known bugs at this time._
 
 ## Support and contact details
 
-_name and email of contributers_
+_Michael Petersen <michael_petersen_email@yahoo.com>_
 
 ## Technologies Used
 
