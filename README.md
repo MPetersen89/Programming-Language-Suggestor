@@ -23,7 +23,7 @@ Open via Bash/GitBash:
 `open index.html`
 
 Current GH-Pages Build:
-* 
+* N/A
 
 ## Known Bugs
 

@@ -4,14 +4,13 @@
   text-shadow: black;
 }
 
-#questions {
+form#questions {
   text-align: center;
-  display: none;
 }
 
 .results {
   text-align: center;
-  display: none;
+
 }
 
 #otherResults {
