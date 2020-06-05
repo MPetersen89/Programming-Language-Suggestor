@@ -46,4 +46,4 @@ _Michael Petersen <michael_petersen_email@yahoo.com>_
 
 MIT - License
 
-Copyright (c) 2020 **_Author Names_**
+Copyright (c) 2020 **_Michael Petersen_**
