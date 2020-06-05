@@ -4,6 +4,11 @@
   text-shadow: black;
 }
 
+.questions {
+  display: none;
+}
+
 .results {
   text-align: center;
+  display: none;
 }
