@@ -1,6 +1,7 @@
 $("document").ready(function() {
   console.log("script executing")
   const career = parseInt($("input:radio[name=career]:checked").val());
+  console.log("career value checked")
   const task = parseInt($("input:radio[name=task]:checked").val());
   const company = parseInt($("input:radio[name=company]:checked").val());
   const difficulty = parseInt($("input:radio[name=difficulty]:checked").val());
@@ -19,19 +20,19 @@ $("document").ready(function() {
   });
   
   if (results <= 10) {
-    $("#C").show();
+    $("#c").show();
   }
 
   if (results >= 11 && results <= 15) {
-    $("#C++").show();
+    $("#cPlusPlus").show();
   }
 
   if (results >= 16 && results <= 20) {
-    $("#C#").show();
+    $("#cSharp").show();
   }
 
   if (results >= 21 && results <= 25) {
-    $("#CSS").show();
+    $("#css").show();
   }
 
   if (results >= 26 && results <= 30) {

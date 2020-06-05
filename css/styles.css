@@ -8,9 +8,9 @@ form#questions {
   text-align: center;
 }
 
-.results {
+#c #cPlusPlus #cSharp #css #python #ruby #java #javascript #html #sql #sqift #perl #php {
+  display: none;
   text-align: center;
-
 }
 
 #otherResults {
