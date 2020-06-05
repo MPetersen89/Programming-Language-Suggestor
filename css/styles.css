@@ -4,11 +4,15 @@
   text-shadow: black;
 }
 
-/* .questions { */
-  display: none;
-} */
+.questions {
+  text-align: center;
+}
 
 .results {
   text-align: center;
   display: none;
+}
+
+#otherResults {
+  text-align: center;
 }
