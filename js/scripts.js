@@ -1,5 +1,6 @@
 $("document").ready(function() {
-  console.log("script executing")
+
+  $("submit#submitButton6").submit(function(event) {
   const career = parseInt($("input:radio[name=career]:checked").val());
   const task = parseInt($("input:radio[name=task]:checked").val());
   const company = parseInt($("input:radio[name=company]:checked").val());
@@ -8,60 +9,58 @@ $("document").ready(function() {
   const versatility = parseInt($("input:radio[name=versatility]:checked").val());
   const type = parseInt($("input:radio[name=type]:checked").val());
   let results = career + task + company + difficulty + income + versatility + type;
-
-  $("input#start").submit(function() {
-    console.log("start button executing")
+  event.preventDefault();
   });
   
   if (results <= 10) {
-    $("#c").show();
+    $("c").show();
   }
 
   if (results >= 11 && results <= 15) {
-    $("#cPlusPlus").show();
+    $("cPlusPlus").show();
   }
 
   if (results >= 16 && results <= 20) {
-    $("#cSharp").show();
+    $("cSharp").show();
   }
 
   if (results >= 21 && results <= 25) {
-    $("#css").show();
+    $("css").show();
   }
 
   if (results >= 26 && results <= 30) {
-    $("#python").show();
+    $("python").show();
   }
 
   if (results >= 31 && results <= 35) {
-    $("#ruby").show();
+    $("ruby").show();
   }
 
   if (results >= 36 && results <= 40) {
-    $("#java").show();
+    $("java").show();
   }
 
   if (results >= 41 && results <= 45) {
-    $("#javascript").show();
+    $("javascript").show();
   }
 
   if (results >= 46 && results <= 50) {
-    $("#html").show();
+    $("html").show();
   }
 
   if (results >= 51 && results <= 55) {
-    $("#sql").show();
+    $("sql").show();
   }
 
   if (results >= 56 && results <= 60) {
-    $("#swift").show();
+    $("swift").show();
   }
 
   if (results >= 61 && results <= 65) {
-    $("#perl").show();
+    $("perl").show();
   }
 
   if (results = 70) {
-    $("#php").show();
+    $("personalHomePage").show();
   }
 })

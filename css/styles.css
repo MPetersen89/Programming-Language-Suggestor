@@ -68,11 +68,7 @@ form#questions {
   text-align: center;
 }
 
-#php {
+#personalHomePage {
   display: none;
   text-align: center;
-}
-
-#otherResults {
-  align-content: center;
 }
