@@ -4,7 +4,7 @@
   text-shadow: black;
 }
 
-.questions {
+#questions {
   text-align: center;
   display: none;
 }
