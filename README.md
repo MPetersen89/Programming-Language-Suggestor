@@ -27,7 +27,7 @@ Current GH-Pages Build:
 
 ## Known Bugs
 
-_No known bugs at this time._
+_Currently does not complete form input. No results shown._
 
 ## Support and contact details
 

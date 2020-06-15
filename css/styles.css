@@ -1,4 +1,4 @@
-.jumbotron {
+.start {
   text-align: center;
   text-decoration: solid;
   text-shadow: black;
@@ -6,6 +6,7 @@
 
 form#questions {
   text-align: center;
+  display: none;
 }
 
 #c {

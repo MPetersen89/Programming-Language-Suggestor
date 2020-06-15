@@ -1,5 +1,11 @@
 $("document").ready(function() {
 
+  $("button#start").click(function(event) {
+    $("#questions").toggle();
+    $(".start").hide();
+    event.preventDefault()
+  });
+
   $("submit#submitButton6").submit(function(event) {
   const career = parseInt($("input:radio[name=career]:checked").val());
   const task = parseInt($("input:radio[name=task]:checked").val());
