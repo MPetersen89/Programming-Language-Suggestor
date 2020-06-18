@@ -1,6 +1,6 @@
 # _Programming Language Suggestor_
 
-#### _Interactive program/quiz utilizing HTML, CSS, and JS, 6/5/2020_
+#### _Interactive program/quiz utilizing HTML, CSS, and JS, 6/18/2020_
 
 #### By _**Michael Petersen**_
 
@@ -16,8 +16,8 @@ Open by downloading:
 
 Open via Bash/GitBash:
 1. Clone this repository onto your computer:
-`git clone https://github.com/MPetersen89/Programming-Language-Selector`
-2. Navigate into the `Programming-Language-Selector` directory in Visual Studio Code or preferred text editor
+`git clone https://github.com/MPetersen89/Programming-Language-Suggestor`
+2. Navigate into the `Programming-Language-Suggestor` directory in Visual Studio Code or preferred text editor
 `code .`
 3. Open index.html in Chrome or preferred browser:
 `open index.html`
@@ -27,7 +27,7 @@ Current GH-Pages Build:
 
 ## Known Bugs
 
-_Currently does not complete form input. No results shown._
+_See other results button currently inoperative._
 
 ## Support and contact details
 
