@@ -8,7 +8,6 @@ $("document").ready(function() {
 
   $("#submitButton").click(function(event) {
     event.preventDefault();
-    $("#questions").toggle();
     const career = parseInt($("input:radio[name=optionsCareer]:checked").val());
     const task = parseInt($("input:radio[name=optionsTask]:checked").val());
     const company = parseInt($("input:radio[name=optionsCompany]:checked").val());
@@ -16,8 +15,7 @@ $("document").ready(function() {
     const income = parseInt($("input:radio[name=optionsIncome]:checked").val());
     const versatility = parseInt($("input:radio[name=optionsVersatility]:checked").val());
     const type = parseInt($("input:radio[name=optionsType]:checked").val());
-    // let results = career + task + company + difficulty + income + versatility + type;
-    let results = 60
+    let results = career + task + company + difficulty + income + versatility + type;
     if (results <= 10) {
       $("#c").show();
     } else if (results >= 11 && results <= 15) {
