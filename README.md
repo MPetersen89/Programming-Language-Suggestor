@@ -27,7 +27,7 @@ Current GH-Pages Build:
 
 ## Known Bugs
 
-_See other results button currently inoperative._
+_No known bugs at this time._
 
 ## Support and contact details
 
